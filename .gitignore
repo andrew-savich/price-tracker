@@ -1,0 +1,58 @@
+### Build Artifacts ###
+target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Maven ###
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea/sonarlint/
+
+### VS Code ###
+.vscode/
+
+### Java ###
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+
+### Logs ###
+logs/
+*.log
+
+### OS (Windows) ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### Environment & Secrets ###
+*.env
+.env.*
+*.key
+*.pem
+
+### Temporary / Misc ###
+*.tmp
+*.swp
+*.bak
+
+### Project Files ###
+HELP.md
